@@ -1,13 +1,13 @@
 <deployment-project plugin="plugin.toolbox" plugin-version="1.0">
-  <configuration build-checksum="3580143086" file="C:\Users\arveq\Documents\dotphoton\projects\matlab-jetraw\deployment\matlabJetraw.prj" location="C:\Users\arveq\Documents\dotphoton\projects\matlab-jetraw\deployment" name="matlabJetraw" target="target.toolbox" target-name="Package Toolbox">
+  <configuration build-checksum="3580143086" file="C:\Users\arveq\Documents\dotphoton\projects\public_github\matlab\deployment\matlabJetraw.prj" location="C:\Users\arveq\Documents\dotphoton\projects\public_github\matlab\deployment" name="matlabJetraw" target="target.toolbox" target-name="Package Toolbox">
     <param.appname>Jetraw_Matlab_Toolbox</param.appname>
     <param.authnamewatermark>Dotphoton AG</param.authnamewatermark>
     <param.email>contact@dotphoton.com</param.email>
     <param.company>Dotphoton AG</param.company>
     <param.summary>Jetraw Matlab Toolbox</param.summary>
-    <param.description>This Matlab module provides the functionality to read and write compressed Jetraw TIFF images.</param.description>
+    <param.description>This Matlab module provides the functionality to read and write compressed Jetraw TIFF images. The input image needs to be dpcore prepared in order to be able to compress it.</param.description>
     <param.screenshot>C:\Users\arveq\Documents\dotphoton\jetraw_icon.png</param.screenshot>
-    <param.version>0.9</param.version>
+    <param.version>21.06.18.1</param.version>
     <param.output>${PROJECT_ROOT}\Jetraw_Matlab_Toolbox.mltbx</param.output>
     <param.products.name />
     <param.products.id />
@@ -103,7 +103,7 @@
     <fileset.depfun.excluded />
     <fileset.package />
     <build-deliverables>
-      <file location="${PROJECT_ROOT}" name="Jetraw_Matlab_Toolbox.mltbx" optional="false">C:\Users\arveq\Documents\dotphoton\projects\matlab-jetraw\deployment\Jetraw_Matlab_Toolbox.mltbx</file>
+      <file location="${PROJECT_ROOT}" name="Jetraw_Matlab_Toolbox.mltbx" optional="false">C:\Users\arveq\Documents\dotphoton\projects\public_github\matlab\deployment\Jetraw_Matlab_Toolbox.mltbx</file>
     </build-deliverables>
     <workflow />
     <matlab>
