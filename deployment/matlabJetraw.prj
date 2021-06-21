@@ -1,23 +1,19 @@
 <deployment-project plugin="plugin.toolbox" plugin-version="1.0">
-  <configuration file="C:\Users\arveq\Documents\dotphoton\projects\matlab-jetraw\deployment\matlabJetraw.prj" location="C:\Users\arveq\Documents\dotphoton\projects\matlab-jetraw\deployment" name="matlabJetraw" target="target.toolbox" target-name="Package Toolbox">
-    <param.appname>matlabJetraw</param.appname>
+  <configuration build-checksum="3580143086" file="C:\Users\arveq\Documents\dotphoton\projects\matlab-jetraw\deployment\matlabJetraw.prj" location="C:\Users\arveq\Documents\dotphoton\projects\matlab-jetraw\deployment" name="matlabJetraw" target="target.toolbox" target-name="Package Toolbox">
+    <param.appname>Jetraw_Matlab_Toolbox</param.appname>
     <param.authnamewatermark>Dotphoton AG</param.authnamewatermark>
     <param.email>contact@dotphoton.com</param.email>
     <param.company>Dotphoton AG</param.company>
-    <param.summary>Matlab module for Jetraw</param.summary>
-    <param.description>Matlab toolbox to read and write TIFF files with JetRaw compression. For more info visit https://www.jetraw.com/
-
-Requirements:
-- Jetraw installed on a Windows computer (MacOS and Linux coming soon) and folder in PATH (if not pass folder of jetraw_tiff library manually following installation folder structure).
-- For writing compressed files, a valid License is needed.</param.description>
+    <param.summary>Jetraw Matlab Toolbox</param.summary>
+    <param.description>This Matlab module provides the functionality to read and write compressed Jetraw TIFF images.</param.description>
     <param.screenshot>C:\Users\arveq\Documents\dotphoton\jetraw_icon.png</param.screenshot>
     <param.version>0.9</param.version>
-    <param.output>${PROJECT_ROOT}\matlabJetraw.mltbx</param.output>
+    <param.output>${PROJECT_ROOT}\Jetraw_Matlab_Toolbox.mltbx</param.output>
     <param.products.name />
     <param.products.id />
     <param.products.version />
     <param.platforms />
-    <param.guid>4189ee0a-144f-4cb7-bb79-b86e50ab321a</param.guid>
+    <param.guid>48a6bcf9-1915-46cc-8f71-82816db1b624</param.guid>
     <param.exclude.filters>% List files contained in your toolbox folder that you would like to exclude
 % from packaging.  Excludes should be listed relative to the toolbox folder.
 % Some examples of how to specify excludes are provided below:
@@ -37,9 +33,10 @@ Requirements:
 % All files matching a pattern in all subfolders of the toolbox folder:
 % **/*.bak
 %
-
-.git/
-.gitignore</param.exclude.filters>
+% All files matching a pattern in all subfolders of the toolbox folder:
+*.asv
+%
+%</param.exclude.filters>
     <param.exclude.pcodedmfiles>true</param.exclude.pcodedmfiles>
     <param.examples />
     <param.demosxml />
@@ -57,8 +54,8 @@ Requirements:
     <param.release.end />
     <param.release.current.only>false</param.release.current.only>
     <param.compatiblity.windows>true</param.compatiblity.windows>
-    <param.compatiblity.macos>true</param.compatiblity.macos>
-    <param.compatiblity.linux>true</param.compatiblity.linux>
+    <param.compatiblity.macos>false</param.compatiblity.macos>
+    <param.compatiblity.linux>false</param.compatiblity.linux>
     <param.compatiblity.matlabonline>false</param.compatiblity.matlabonline>
     <param.installation.map />
     <param.additional.sw.names />
@@ -89,8 +86,6 @@ Requirements:
       <param.release.end />
       <param.release.current.only />
       <param.compatiblity.windows />
-      <param.compatiblity.macos />
-      <param.compatiblity.linux />
       <param.installation.map />
       <param.additional.sw.names />
       <param.additional.sw.licenses />
@@ -99,14 +94,16 @@ Requirements:
       <param.additional.sw.linux.url />
     </unset>
     <fileset.rootdir>
-      <file>${PROJECT_ROOT}</file>
+      <file>C:\Users\arveq\Documents\dotphoton\projects\matlab-jetraw\src\jetraw</file>
     </fileset.rootdir>
-    <fileset.rootfiles />
+    <fileset.rootfiles>
+      <file>C:\Users\arveq\Documents\dotphoton\projects\matlab-jetraw\src\jetraw\JetrawTiff.m</file>
+    </fileset.rootfiles>
     <fileset.depfun.included />
     <fileset.depfun.excluded />
     <fileset.package />
     <build-deliverables>
-      <file location="${PROJECT_ROOT}" name="matlabJetraw.mltbx" optional="false">C:\Users\arveq\Documents\dotphoton\projects\matlab-jetraw\deployment\matlabJetraw.mltbx</file>
+      <file location="${PROJECT_ROOT}" name="Jetraw_Matlab_Toolbox.mltbx" optional="false">C:\Users\arveq\Documents\dotphoton\projects\matlab-jetraw\deployment\Jetraw_Matlab_Toolbox.mltbx</file>
     </build-deliverables>
     <workflow />
     <matlab>

@@ -9,7 +9,9 @@ https://www.jetraw.com/
 - For writing compressed files a valid License is needed. 
 
 ## Usage
-Here are some code snippets of how the module would typically be used.
+Here are some code snippets of how the module would typically be used. You can find a copy of this example in the folder "example" along with an
+already Jetraw compressed TIFF image:
+- exampleScript.m 
 
 ```matlab
 % Create JetrawTiff object and open compressed TIFF file.
@@ -39,6 +41,20 @@ tif = JetrawTiff('example_image.p.tif', 'r', 'path_to_jetrawtiff_lib');
 imageStack = tif.read();
 tif.close();
 ```
+
+## Testing
+The user can test that the installation was successful running the 2 tests available in this same GitHub repository. Go to the folder "test" and 
+you will find the following tests:
+
+- JetrawTiffWriterTest.m 
+- JetrawTiffReaderTest.m 
+
+In order to run these tests you simply need to type the following command:
+
+result = run(JetrawTiffWriterTest)
+result = run(JetrawTiffReaderTest)
+
+All tests should pass. Remember to copy the example image "example_image.p.tif" inside the test folder before running the tests. 
 
 ## Contact
 

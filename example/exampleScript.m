@@ -23,6 +23,6 @@ tif.write(imageStack);
 tif.close();
 
 % Create JetrawTiff object specifying JetrawTiff lib path and open compressed TIFF file.
-tif = JetrawTiff('example_image.p.tif', 'r', 'path_to_jetrawtiff_lib');
-imageStack = tif.read();
-tif.close();
+%tif = JetrawTiff('example_image.p.tif', 'r', 'path_to_jetrawtiff_lib');
+%imageStack = tif.read();
+%tif.close();
