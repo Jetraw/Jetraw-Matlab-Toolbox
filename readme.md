@@ -8,6 +8,9 @@ https://www.jetraw.com/
 - **Jetraw installed** on a Windows computer (MacOS and Linux coming soon) and installation folder in PATH (if not pass installation folder of jetraw_tiff library manually keeping installation folder structure).
 - For writing compressed files a **valid License** is needed. 
 
+## Installation
+In the folder **deployment** or in the section Release you will find a file named **Jetraw_Matlab_Toolbox.mltbx**. This file is a Matlab Toolbox Installer, once downloaded you simply need to double click on it and the installation process will start automatically. 
+
 ## Usage
 Here are some **code snippets** of how the module would typically be used. 
 
