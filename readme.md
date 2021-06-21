@@ -1,17 +1,18 @@
 # matlabJetRaw, the Matlab module for JetRaw  
 
-This is a Matlab toolbox to read and write (under development) TIFF files with JetRaw compression. For more info visit
+This is a **Matlab toolbox** to read and write (under development) TIFF files with **JetRaw compression**. For more info visit
 https://www.jetraw.com/
 
 
 ## Requirements
-- Jetraw installed on a Windows computer (MacOS and Linux coming soon) and installation folder in PATH (if not pass installation folder of jetraw_tiff library manually keeping installation folder structure).
-- For writing compressed files a valid License is needed. 
+- **Jetraw installed** on a Windows computer (MacOS and Linux coming soon) and installation folder in PATH (if not pass installation folder of jetraw_tiff library manually keeping installation folder structure).
+- For writing compressed files a **valid License** is needed. 
 
 ## Usage
-Here are some code snippets of how the module would typically be used. You can find a copy of this example in the folder "example" along with an
-already Jetraw compressed TIFF image:
-- exampleScript.m 
+Here are some **code snippets** of how the module would typically be used. 
+
+You can find a copy of this example in the **folder "example"** (exampleScrip.m) along with an
+already Jetraw compressed TIFF image.
 
 ```matlab
 % Create JetrawTiff object and open compressed TIFF file.
@@ -43,18 +44,21 @@ tif.close();
 ```
 
 ## Testing
-The user can test that the installation was successful running the 2 tests available in this same GitHub repository. Go to the folder "test" and 
+The user can test that the installation was successful running the two set of tests available in this same GitHub repository. Go to the **folder "test"** and 
 you will find the following tests:
 
 - JetrawTiffWriterTest.m 
 - JetrawTiffReaderTest.m 
 
-In order to run these tests you simply need to type the following command:
+In order to **run these tests** you simply need to type the following command:
 
-result = run(JetrawTiffWriterTest)
-result = run(JetrawTiffReaderTest)
+```matlab
+result = run(JetrawTiffWriterTest);
+result = run(JetrawTiffReaderTest);
+```
 
-All tests should pass. Remember to copy the example image "example_image.p.tif" inside the test folder before running the tests. 
+All tests should pass. 
+**Remember** to copy the example image **example_image.p.tif** inside the test folder before running the tests. 
 
 ## Contact
 
