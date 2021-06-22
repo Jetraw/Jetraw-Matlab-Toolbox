@@ -9,7 +9,24 @@ https://www.jetraw.com/
 - For writing compressed files a **valid License** is needed. 
 
 ## Installation
-In the folder **deployment** or in the section Release you will find a file named **Jetraw_Matlab_Toolbox.mltbx**. This file is a Matlab Toolbox Installer, once downloaded you simply need to double click on it and the installation process will start automatically. 
+In the main folder of this repository or in the section Release you will find a file named **Jetraw_Matlab_Toolbox.mltbx**. This file is a Matlab Toolbox Installer, once downloaded you simply need to double click on it and the installation process will start automatically. 
+
+## Testing
+The user can test that the installation was successful running the two set of tests available in this same GitHub repository. Go to the **folder "test"** and 
+you will find the following tests:
+
+- JetrawTiffWriterTest.m 
+- JetrawTiffReaderTest.m 
+
+In order to **run these tests** you simply need to type the following command:
+
+```matlab
+result = run(JetrawTiffWriterTest)
+result = run(JetrawTiffReaderTest)
+```
+
+All tests should pass. 
+**Remember** to copy the example image **example_image.p.tif** inside the test folder before running the tests. 
 
 ## Usage
 Here are some **code snippets** of how the module would typically be used. 
@@ -45,23 +62,6 @@ tif = JetrawTiff('example_image.p.tif', 'r', 'path_to_jetrawtiff_lib');
 imageStack = tif.read();
 tif.close();
 ```
-
-## Testing
-The user can test that the installation was successful running the two set of tests available in this same GitHub repository. Go to the **folder "test"** and 
-you will find the following tests:
-
-- JetrawTiffWriterTest.m 
-- JetrawTiffReaderTest.m 
-
-In order to **run these tests** you simply need to type the following command:
-
-```matlab
-result = run(JetrawTiffWriterTest);
-result = run(JetrawTiffReaderTest);
-```
-
-All tests should pass. 
-**Remember** to copy the example image **example_image.p.tif** inside the test folder before running the tests. 
 
 ## Contact
 
