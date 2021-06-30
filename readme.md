@@ -16,7 +16,7 @@ If your application demands the highest performance possible perhaps it is bette
 - For writing compressed files a **valid License** is needed. 
 
 ## Installation
-Download the Matlab Toolbox installer (.mltbx file) for the [latest (pre-)release](https://github.com/Jetraw/Jetraw-Matlab-Toolbox/releases). Once downloaded you simply need to double click on it and the installation process will start automatically. 
+Download the Matlab Toolbox installer (.mltbx file)  for the [latest (pre-)release](https://github.com/Jetraw/Jetraw-Matlab-Toolbox/releases/download/21.06.30.4/Jetraw_Matlab_Toolbox.mltbx). If you prefer to download prior versions check [previous (pre-)releases](https://github.com/Jetraw/Jetraw-Matlab-Toolbox/releases). Once downloaded you simply need to double click on it and the installation process will start automatically. 
 
 ## Testing
 The user can test that the installation was successful running the two set of tests available in this same GitHub repository. Go to the **folder "test"** and 
