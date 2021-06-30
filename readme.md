@@ -44,8 +44,7 @@ If you want to get a list of all **available functions and features**, please ex
 
 Here are some **code snippets** of how the module would typically be used. 
 
-You can find a copy of this example in the **folder "example"** (exampleScrip.m) along with an
-already Jetraw compressed TIFF image.
+You can find a copy of this example in the **folder "example"** (exampleScrip.m) along with an already Dpcore prepared TIFF image.
 
 ```matlab
 % EXAMPLE 1: read dpcore prepared TIFF file and write Jetraw compressed TIFF file
