@@ -12,7 +12,8 @@ to integrate Jetraw into Matlab's environment but it affects performance in two 
 If your application demands the highest performance possible perhaps it is better to move to the C/C++ version of the product. 
 
 ## Requirements
-- **Jetraw installed** on a Windows computer (MacOS and Linux coming soon) and installation folder in PATH (if not pass installation folder of jetraw_tiff library manually keeping installation folder structure).
+- **Jetraw installed** on a Windows computer (MacOS and Linux coming soon) and installation folder in PATH (if not pass installation folder of jetraw_tiff library manually keeping installation folder structure).<br/>
+*Note:* if you do not have Jetraw installed visit https://www.jetraw.com/downloads/software and for usage information https://github.com/Jetraw/Jetraw
 - For writing compressed files a **valid License** is needed. 
 
 ## Installation
