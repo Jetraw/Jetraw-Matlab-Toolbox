@@ -37,6 +37,7 @@ All tests should pass.
 
 ## Usage
 If you want to get a list of all **available functions and features**, please execute the following command in your Matlab terminal:
+
 ```matlab
     help JetrawTiff
 ```
@@ -97,4 +98,3 @@ tif.close();
 
 ## Contact
 Feel free to use the [issues section](https://github.com/Jetraw/Jetraw-Matlab-Toolbox/issues) to report bugs or request new features. You can also ask questions and give comments by visiting the [discussions](https://github.com/Jetraw/Jetraw-Matlab-Toolbox/discussions), or following the contact information at https://jetraw.com.
-
